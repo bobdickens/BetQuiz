@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/lvl1_Fragment">
+
+    <fragment
+        android:id="@+id/lvl1_Fragment"
+        android:name="com.example.betquiz.presentation.levels.Lvl1.Lvl1_Fragment"
+        android:label="fragment_lvl1_"
+        tools:layout="@layout/fragment_lvl1_" />
+</navigation>

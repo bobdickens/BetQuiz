@@ -1,4 +1,4 @@
-package com.example.betquiz
+package com.example.betquiz.presentation.splash
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,8 @@ import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.betquiz.MainActivity
+import com.example.betquiz.R
 
 @Suppress("DEPRECATION")
 class SplashScreen : AppCompatActivity() {

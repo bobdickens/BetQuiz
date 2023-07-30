@@ -13,7 +13,7 @@
         android:theme="@style/Theme.BetQuiz"
         tools:targetApi="31">
         <activity
-            android:name=".SplashScreen"
+            android:name=".presentation.splash.SplashScreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true" >
             <intent-filter>

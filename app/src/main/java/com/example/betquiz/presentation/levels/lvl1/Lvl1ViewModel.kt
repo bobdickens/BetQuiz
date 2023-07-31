@@ -1,4 +1,4 @@
-package com.example.betquiz.presentation.levels.Lvl1
+package com.example.betquiz.presentation.levels.lvl1
 
 import androidx.lifecycle.ViewModel
 

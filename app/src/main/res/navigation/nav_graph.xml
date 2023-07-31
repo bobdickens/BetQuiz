@@ -7,7 +7,28 @@
 
     <fragment
         android:id="@+id/lvl1_Fragment"
-        android:name="com.example.betquiz.presentation.levels.Lvl1.Lvl1_Fragment"
+        android:name="com.example.betquiz.presentation.levels.startFragment.Start_Fragment"
         android:label="fragment_lvl1_"
-        tools:layout="@layout/fragment_lvl1_" />
+        tools:layout="@layout/start_fragment" >
+        <action
+            android:id="@+id/action_lvl1_Fragment_to_fullLevelsFragment"
+            app:destination="@id/fullLevelsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fullLevelsFragment"
+        android:name="com.example.betquiz.presentation.levels.fullLelels.FullLevelsFragment"
+        android:label="fragment_full_levels"
+        tools:layout="@layout/fragment_full_levels" >
+        <action
+            android:id="@+id/action_fullLevelsFragment_to_lvl1_Fragment"
+            app:destination="@id/lvl1_Fragment" />
+        <action
+            android:id="@+id/action_fullLevelsFragment_to_lvl1Fragment"
+            app:destination="@id/lvl1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lvl1Fragment"
+        android:name="com.example.betquiz.presentation.levels.lvl1.Lvl1Fragment"
+        android:label="fragment_lvl1"
+        tools:layout="@layout/fragment_lvl1" />
 </navigation>

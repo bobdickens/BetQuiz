@@ -48,12 +48,6 @@ class Lvl1Fragment : Fragment() {
         val custom: View = layoutInflater.inflate(R.layout.lvl1allertdialog_fragment, null)
         builder.setView(custom)
 
-
-        //builder.setPositiveButton("Continue"){_,_ -> }
-
-//        builder.setTitle("Привет пидор")
-//        builder.setMessage("Выбери ")
-//        builder.setPositiveButton("Продолжить"){ _, _ ->}
         val dialog = builder.create()
         val yesbtn = custom.findViewById<Button>(R.id.btnYes)
         yesbtn.setOnClickListener {
